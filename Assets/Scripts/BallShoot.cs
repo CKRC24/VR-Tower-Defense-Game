@@ -19,7 +19,8 @@ public class BallShoot : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(!cam_other.enabled){
+		
+		if(cam_other.enabled){
 			if (Input.GetKey ("space")) {
 				pressure += Time.deltaTime * 30f;
 				//print (pressure);

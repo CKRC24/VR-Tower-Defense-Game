@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{28866EB0-7993-C171-348D-8535A8E3480D}</ProjectGuid>
+    <ProjectGuid>{5FE79EC4-F65D-FB20-1539-35F962CDF6C8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -55,10 +55,12 @@
      <Compile Include="Assets\Scripts\EnemyNavigation.cs" />
      <Compile Include="Assets\Scripts\KillBox.cs" />
      <Compile Include="Assets\Scripts\Left_Flipper.cs" />
+     <Compile Include="Assets\Scripts\PlayerMove.cs" />
      <Compile Include="Assets\Scripts\Right_Flipper.cs" />
      <Compile Include="Assets\Scripts\ScoreManager.cs" />
      <Compile Include="Assets\Scripts\ShootingScript.cs" />
      <Compile Include="Assets\Scripts\SpawnScript.cs" />
+     <Compile Include="Assets\Scripts\SwitchMode.cs" />
      <Compile Include="Assets\Scripts\TowerHealth.cs" />
      <Compile Include="Assets\Scripts\UponEnter.cs" />
      <Compile Include="Assets\Scripts\flipper.cs" />
